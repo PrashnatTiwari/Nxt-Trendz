@@ -1,0 +1,80 @@
+.login-page-bg-container {
+  background-color: #e2e8f0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.website-logo {
+  height: 50px;
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.website-login {
+  height: 300px;
+  width: 600px;
+}
+.login-card-container {
+  height: 50vh;
+  width: 25vw;
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+
+.username-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.password-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.username-input {
+  width: 17vw;
+  margin: 10px;
+  height: 5vh;
+  padding-left: 10px;
+  background-color: #d7dfe9;
+  border: none;
+  border-radius: 3px;
+}
+
+.password-input {
+  border-radius: 3px;
+  border: none;
+  width: 17vw;
+  margin: 10px;
+  height: 5vh;
+  padding-left: 10px;
+  background-color: #d7dfe9;
+}
+
+.label-name {
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 10px;
+  font-family: Roboto;
+}
+
+.login-button {
+  color: #ffffff;
+  width: 92%;
+  height: 5vh;
+  background-color: #0b69ff;
+  border: none;
+  border-radius: 3px;
+  margin-left: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}

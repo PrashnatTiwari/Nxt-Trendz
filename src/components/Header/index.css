@@ -1,0 +1,42 @@
+.nav-container {
+  height: 14vh;
+  width: 100vw;
+  background-color: #ffffff;
+  font-family: Roboto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.nav-link {
+  font-size: 15px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  width: 20vw;
+  align-items: center;
+  margin-right: 28px;
+}
+
+.image-logo {
+  height: 40px;
+  width: 130px;
+  margin-left: 27px;
+}
+
+.logout-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  text-align: center;
+  height: 4vh;
+  width: 6vw;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: bold;
+}

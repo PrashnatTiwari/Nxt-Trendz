@@ -1,0 +1,35 @@
+.home-bg-container {
+  height: 84vh;
+  width: 100vw;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  font-family: Roboto;
+}
+.home-main-heading {
+  font-size: 38px;
+}
+
+.shopnow-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  text-align: center;
+  height: 5vh;
+  width: 8vw;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.home-main-image {
+  height: 400px;
+  width: 400px;
+}
+
+.home-paragraph {
+  color: #64748b;
+}
