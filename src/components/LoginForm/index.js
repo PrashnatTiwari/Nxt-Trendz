@@ -17,7 +17,7 @@ class LoginUser extends Component {
     event.preventDefault()
     const {usernameInput, passwordInput} = this.state
     const url = 'https://apis.ccbp.in/login'
-    const userDetails = {usernameInput, passwordInput}
+    const userDetails = {username: usernameInput, password: passwordInput}
     const options = {
       method: 'POST',
       body: JSON.stringify(userDetails),
